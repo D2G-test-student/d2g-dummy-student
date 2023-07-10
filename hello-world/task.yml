@@ -1,0 +1,7 @@
+name: Hello World
+description: Print "Hello World!" to the console.
+metrics:
+- compile:
+    points: 1
+no_override:
+- src/main/java/Main.java
