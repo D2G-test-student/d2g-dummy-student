@@ -1,7 +1,7 @@
 public class Main {
 
     public static String getMessage() {
-        return null;
+        return "Hello World!";
     }
 
     public static void main(String[] args) {
