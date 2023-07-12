@@ -3,5 +3,8 @@ description: Print "Hello World!" to the console.
 metrics:
 - compile:
     points: 1
+- junit:
+    points_per_test: 1
+    depends_on: compile
 no_override:
 - src/main/java/Main.java
