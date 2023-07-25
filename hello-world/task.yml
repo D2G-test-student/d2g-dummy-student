@@ -6,5 +6,8 @@ metrics:
 - junit:
     points_per_test: 1
     depends_on: compile
+- javadoc:
+    max_points: 10
+    depends_on: compile
 no_override:
 - src/main/java/Main.java
