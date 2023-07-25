@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'checkstyle'
 }
 
 repositories {
@@ -15,4 +16,17 @@ sourceCompatibility = 17
 test {
     useJUnit()
     reports.junitXml.outputLocation = file("build/results/junit/xml")
+}
+
+checkstyle {
+    toolVersion = "10.2"
+    configFile = file(".config/checkstyle/javadoc.xml")
+    reportsDir = file("build/results/javadoc")
+}
+
+tasks.withType(Checkstyle) {
+    reports {
+        xml.required = true
+        html.required = false
+    }
 }
