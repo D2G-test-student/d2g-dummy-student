@@ -1,5 +1,6 @@
 name: Test assignment
 description: This is an assignment to test Deploy-to-Grading
+template_repository: https://github.com/akirsch1/d2g-dummy-template
 due_date: 2025-01-01T00:00
 tasks:
 - hello-world
