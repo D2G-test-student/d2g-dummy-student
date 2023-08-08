@@ -5,12 +5,12 @@ import static org.junit.Assert.*;
 public class MainTest {
 
     @Test
-    public void getMessageCorrect() {
+    public void getMessageCorrect_3p() {
         assertEquals("Hello World!", Main.getMessage());
     }
 
     @Test
-    public void testAlwaysTrue() {
+    public void testAlwaysTrue_0p() {
         assertTrue(true);
     }
     
