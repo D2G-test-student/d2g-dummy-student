@@ -4,7 +4,7 @@ metrics:
 - compile:
     points: 1
 - junit:
-    points_per_test: 1
+    default_points: 1
     depends_on: compile
 - javadoc:
     max_points: 10
