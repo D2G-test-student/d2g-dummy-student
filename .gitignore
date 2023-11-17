@@ -27,6 +27,7 @@ temp/
 resources/
 docs/
 pdf/
+results/
 
 
 # Hugo / Pandoc related files #
