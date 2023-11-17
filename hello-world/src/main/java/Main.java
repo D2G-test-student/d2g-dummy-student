@@ -1,6 +1,4 @@
-/**
- * Main class.
- */
+/** Main class. */
 public class Main {
 
     /**
@@ -14,6 +12,8 @@ public class Main {
 
     /**
      * Main method of the program.
+     *
+     * @param args Command line arguments
      */
     public static void main(String[] args) {
         System.out.println(getMessage());
