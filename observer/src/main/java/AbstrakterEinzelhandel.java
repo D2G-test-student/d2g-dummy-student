@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.List;
 
+/** Abstrakte Klasse des Einzelhandels. */
 public abstract class AbstrakterEinzelhandel implements IObserver {
     protected HashMap<WarenTyp, Integer> lager;
 
