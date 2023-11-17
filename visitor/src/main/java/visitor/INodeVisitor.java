@@ -2,6 +2,9 @@ package visitor;
 
 import tree.Node;
 
+/**
+ * Interface for implementing different types of visitors.
+ */
 public interface INodeVisitor<T extends Comparable<T>> {
 
     /**
