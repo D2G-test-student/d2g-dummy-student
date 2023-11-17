@@ -1,9 +1,11 @@
 import java.util.HashMap;
 
+/** Abstrakte Klasse des Grosshandels. */
 public abstract class AbstrakterGrosshandel implements IObserveable {
+    /** Map für alle auf Lager gehaltenen Gegestände. */
     protected HashMap<WarenTyp, Integer> lager;
 
-    /** Erstellt eine Hashmap und initialisiert alle Warentypen mit dem Wert 0 */
+    /** Erstellt eine Hashmap und initialisiert alle Warentypen mit dem Wert 0. */
     public AbstrakterGrosshandel() {
         lager = new HashMap<>();
         for (WarenTyp typ : WarenTyp.values()) {

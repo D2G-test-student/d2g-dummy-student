@@ -1,19 +1,19 @@
-/** Main class. */
+/** Main-Klasse. */
 public class Main {
 
     /**
-     * Returns the string "Hello World!".
+     * Gibt den String "Hello World!" zurück.
      *
-     * @return message string
+     * @return String mit der Nachricht
      */
     public static String getMessage() {
         return null;
     }
 
     /**
-     * Main method of the program.
+     * Main-Methode des Programms.
      *
-     * @param args Command line arguments
+     * @param args Kommandozeilenargumente
      */
     public static void main(String[] args) {
         System.out.println(getMessage());
