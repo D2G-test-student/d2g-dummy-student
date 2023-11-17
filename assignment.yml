@@ -5,3 +5,4 @@ due_date: 2025-01-01T00:00
 tasks:
 - hello-world
 - observer
+- visitor
