@@ -12,3 +12,7 @@ metrics:
     deduction_per_error: 1
     group_errors: false
     depends_on: compile
+- codeformat:
+    points: 2
+    depends_on: compile
+
