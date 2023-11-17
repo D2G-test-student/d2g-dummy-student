@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public abstract class AbstrakterEinzelhandel implements IObserver {
-    protected HashMap< WarenTyp, Integer> lager;
+    protected HashMap<WarenTyp, Integer> lager;
 
     /** erstellt eine Leere Hashmap welche als representation eines Lager genutzt wird. */
     public AbstrakterEinzelhandel() {
