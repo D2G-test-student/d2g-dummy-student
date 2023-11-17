@@ -1,19 +1,16 @@
 name: Hello World
-description: Print "Hello World!" to the console.
+description: Geben Sie "Hello World!" auf der Konsole aus.
 metrics:
 - compile:
-    points: 1
+    points: 2
 - junit:
     default_points: 1
-    overall_points: 2
-    depends_on: compile
 - javadoc:
-    max_points: 10
+    max_points: 2
     deduction_per_error: 1
-    group_errors: false
-    depends_on: compile
+    group_errors: true
 - codeformat:
     points: 2
-    depends_on: compile
 no_override:
 - src/main/java/Main.java
+
