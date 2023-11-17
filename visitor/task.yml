@@ -3,3 +3,7 @@ description: Siehe README.md
 metrics:
 - compile:
     points: 1
+- junit:
+    default_points: 1
+    overall_points: 2
+    depends_on: compile
