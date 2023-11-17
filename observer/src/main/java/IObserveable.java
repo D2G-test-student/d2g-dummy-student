@@ -1,8 +1,9 @@
 import java.util.List;
 
+/** IObserveable wird von einer beobachtbaren Klasse implementiert. */
 public interface IObserveable {
     /**
-     * Benachrichtigt alle Observer
+     * Benachrichtigt alle Observer.
      *
      * @param warentyp welcher Warentyp zuletzt geändert wurde.
      */
@@ -23,7 +24,7 @@ public interface IObserveable {
     void detach(IObserver observer);
 
     /**
-     * Eine Liste aller aktuellen observer
+     * Eine Liste aller aktuellen observer.
      *
      * @return eine Liste aller observer die dem IObserveable beobachten
      */

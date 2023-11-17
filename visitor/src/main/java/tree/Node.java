@@ -3,7 +3,11 @@ package tree;
 import org.jetbrains.annotations.NotNull;
 import visitor.INodeVisitor;
 
-/** Node in a binary search tree. */
+/**
+ * Node in a binary search tree.
+ *
+ * @param <T> Type to compare. Here card.
+ */
 public class Node<T extends Comparable<T>> {
     private Node<T> leftChild;
     private Node<T> rightChild;
@@ -66,9 +70,10 @@ public class Node<T extends Comparable<T>> {
     }
 
     /**
-     * Accept a visitor to this node
+     * Accept a visitor to this node.
      *
      * @param visitor the visitor.
+     * @return Result of the visit
      */
     public String accept(@NotNull INodeVisitor<T> visitor) {
         return visitor.visit(this);

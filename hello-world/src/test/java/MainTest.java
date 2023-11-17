@@ -1,6 +1,6 @@
-import org.junit.Test;
-
 import static org.junit.Assert.*;
+
+import org.junit.Test;
 
 public class MainTest {
 
@@ -13,7 +13,7 @@ public class MainTest {
     public void testAlwaysTrue_0p() {
         assertTrue(true);
     }
-    
+
     @Test
     public void testThrowException() {
         int x = 5 / 0;

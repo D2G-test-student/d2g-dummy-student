@@ -1,14 +1,12 @@
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 public class CliTest {
 
@@ -23,14 +21,13 @@ public class CliTest {
 
     @Test
     public void testMessagePrintCorrect() {
-        Main.main(new String[]{});
+        Main.main(new String[] {});
         assertEquals("Hello World!\n", outStream.toString());
     }
 
     @After
-    public void after()  {
+    public void after() {
         // Reset out to default stdout
-        System.setOut(new PrintStream(
-            new FileOutputStream(FileDescriptor.out)));
+        System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out)));
     }
 }
