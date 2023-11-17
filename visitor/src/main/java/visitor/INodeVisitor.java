@@ -4,6 +4,8 @@ import tree.Node;
 
 /**
  * Interface for implementing different types of visitors.
+ *
+ * @param <T> Visited type
  */
 public interface INodeVisitor<T extends Comparable<T>> {
 

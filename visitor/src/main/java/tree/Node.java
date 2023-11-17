@@ -73,7 +73,6 @@ public class Node<T extends Comparable<T>> {
      * Accept a visitor to this node.
      *
      * @param visitor the visitor.
-     * 
      * @return Result of the visit
      */
     public String accept(@NotNull INodeVisitor<T> visitor) {
