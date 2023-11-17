@@ -1,5 +1,5 @@
 name: Hello World
-description: Print "Hello World!" to the console.
+description: Geben Sie "Hello World!" auf der Konsole aus.
 metrics:
 - compile:
     points: 2

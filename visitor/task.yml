@@ -1,4 +1,4 @@
-name: Implementierung des Visitor-Patterns
+name: Das Visitor-Pattern
 description: Siehe README.md
 metrics:
 - compile:
@@ -8,7 +8,7 @@ metrics:
 - javadoc:
     max_points: 10
     deduction_per_error: 1
-    group_errors: true
+    group_errors: false
 - codeformat:
     points: 2
 
