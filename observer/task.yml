@@ -2,16 +2,12 @@ name: Implementierung des Observer-Patterns
 description: Implementieren Sie die Klassen `Einzelhandel` und `Großhandel`, die von den jeweiligen abstrakten Klassen erben.
 metrics:
 - compile:
-    points: 1
+    points: 2
 - junit:
     default_points: 1
-    overall_points: 2
-    depends_on: compile
 - javadoc:
     max_points: 10
     deduction_per_error: 1
-    group_errors: false
-    depends_on: compile
+    group_errors: true
 - codeformat:
     points: 2
-    depends_on: compile
